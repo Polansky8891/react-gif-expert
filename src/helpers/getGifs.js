@@ -1,3 +1,5 @@
+import 'whatwg-fetch';
+
 export const getGifs = async(category) => {
 
     const url = `https://api.giphy.com/v1/gifs/search?api_key=q4leSlnFl5ElUu6UD7QPZzNNb84rH17D&q=${category}&limit=10`;
